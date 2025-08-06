@@ -31,6 +31,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+.env.*.local
+.env.local
 
 # IDE / Editor
 .idea/
@@ -56,8 +58,13 @@ ehthumbs.db
 Desktop.ini
 $RECYCLE.BIN/
 
-# C/C++ compilation
-*.o
-*.out
-*.exe
-.ccls-cache/
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Type Hinting
+.mypy_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
